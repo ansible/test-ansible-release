@@ -5,6 +5,23 @@ ansible-core 2.14 "C'mon Everybody" Release Notes
 .. contents:: Topics
 
 
+v2.14.4
+=======
+
+Release Summary
+---------------
+
+| Release Date: 2023-03-07
+| `Porting Guide <https://docs.ansible.com/ansible/devel/porting_guides.html>`__
+
+
+Bugfixes
+--------
+
+- Fix ``MANIFEST.in`` to exclude unwanted files in the ``packaging/`` directory.
+- Fix ``MANIFEST.in`` to include ``*.md`` files in the ``test/support/`` directory.
+- ansible-test - Set ``PYLINTHOME`` for the ``pylint`` sanity test to prevent failures due to ``pylint`` checking for the existence of an obsolete home directory.
+
 v2.14.3
 =======
 
