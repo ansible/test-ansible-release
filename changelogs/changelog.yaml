@@ -1117,3 +1117,22 @@ releases:
     - strategy_badid_fix.yml
     - v2.14.3rc1_summary.yaml
     release_date: '2023-02-20'
+  2.14.4:
+    changes:
+      bugfixes:
+      - Fix ``MANIFEST.in`` to exclude unwanted files in the ``packaging/`` directory.
+      - Fix ``MANIFEST.in`` to include ``*.md`` files in the ``test/support/`` directory.
+      - ansible-test - Set ``PYLINTHOME`` for the ``pylint`` sanity test to prevent
+        failures due to ``pylint`` checking for the existence of an obsolete home
+        directory.
+      release_summary: '| Release Date: 2023-03-07
+
+        | `Porting Guide <https://docs.ansible.com/ansible/devel/porting_guides.html>`__
+
+        '
+    codename: C'mon Everybody
+    fragments:
+    - 2.14.4_summary.yaml
+    - ansible-test-pylint-home.yml
+    - fix-manifest.yml
+    release_date: '2023-03-07'
