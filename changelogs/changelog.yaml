@@ -1136,3 +1136,14 @@ releases:
     - ansible-test-pylint-home.yml
     - fix-manifest.yml
     release_date: '2023-03-07'
+  2.14.5rc1:
+    changes:
+      release_summary: '| Release Date: 2023-03-08
+
+        | `Porting Guide <https://docs.ansible.com/ansible/devel/porting_guides.html>`__
+
+        '
+    codename: C'mon Everybody
+    fragments:
+    - 2.14.5rc1_summary.yaml
+    release_date: '2023-03-08'
