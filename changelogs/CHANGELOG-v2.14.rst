@@ -5,6 +5,16 @@ ansible-core 2.14 "C'mon Everybody" Release Notes
 .. contents:: Topics
 
 
+v2.14.4rc2
+==========
+
+Release Summary
+---------------
+
+| Release Date: 2023-03-21
+| `Porting Guide <https://docs.ansible.com/ansible/devel/porting_guides.html>`__
+
+
 v2.14.4rc1
 ==========
 
